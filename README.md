@@ -11,11 +11,13 @@ In course of doing even just 10 out of these 25 puzzles - difficulty of which va
 8. Learn to use VSCode - and the built in debugger. You will understand and manipulate its settings. Understand and debug compilation and build errors for .NET6.
 
 Even just attempting the first 10 puzzles will give you a significant boost in your abilities. Kudos if you make it to 15. By 20, you would've explored concepts you have previously never encountered.
+
 A new puzzle is launched at 0000 hr Eastern Time each day starting December 1st to December 25th.
 Each day's puzzle consists of two parts - the second part usually extends the first in a specific way. You will learn how to anticipate changes that may be required in your code and how to write code that can easily adapt to changing requirements.
 Each day has one puzzle input and at least one example associated with each part.
-Use the example to test your code.
+
 If you get stuck, feel free to browse someone else's code to learn how to implement a solution. Ideally you want to attempt a solution before you browse and then implement the solution again/differently. This reinforces the learning of new concepts - once when you attempted it and again when you implement the new solution after browsing someone else. This [subreddit](https://www.reddit.com/r/adventofcode/) can be useful for solutions.
+
 ## How to use this repo
 This repo will do some of the heavy lifting for you and help you focus on enjoying writing code to solve the problem at hand. Some tasks however are still to be done manually.
 ### Setup
