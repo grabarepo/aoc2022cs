@@ -64,29 +64,30 @@ The repo ships with a default solution implemented in `Day00.cs`. This is the pu
 In the folder containing the solution file, build the solution using `dotnet build`
 When the build is successful, you will see an output like this
 ```
-		  Microsoft (R) Build Engine version 17.0.1+b177f8fa7 for .NET
-		  Copyright (C) Microsoft Corporation. All rights reserved.
-		  Determining projects to restore...
-		  All projects are up-to-date for restore.
-		  aoc2022cs -> /home/Aditya/Documents/Programming/CSharp/aoc/aoc2022cs/bin/Debug/net6.0/aoc2022cs.dll
-		  Build succeeded.
-		    0 Warning(s)
-		    0 Error(s)
+dotnet build
+Microsoft (R) Build Engine version 17.0.1+b177f8fa7 for .NET
+Copyright (C) Microsoft Corporation. All rights reserved.
+Determining projects to restore...
+All projects are up-to-date for restore.
+aoc2022cs -> /home/Aditya/Documents/Programming/CSharp/aoc/aoc2022cs/bin/Debug/net6.0/aoc2022cs.dll
+Build succeeded.
+0 Warning(s)
+0 Error(s)
 ```
 Run the solution with the command `dotnet run -- DayXX` - replace DayXX with Day00, Day01 etc. You should see something like
 ```
-		  dotnet run -- Day00
-		  10 lines read
-		  2000 lines read
-		  ~ ~ ~** Part 1 **~ ~ ~
-		  Solution to Part 1 - Sample - is 7  
-		           Time elapsed : 9
-		  Solution to Part 1 - Sample - is 1266  
-		           Time elapsed : 2156
-		  ~ ~ ~** Part 2 **~ ~ ~
-		  Solution to Part 2 - Sample - is 5  
-		           Time elapsed : 8
-		  Solution to Part 2 - Sample - is 1217  
-		           Time elapsed : 2164
+dotnet run -- Day00
+10 lines read
+2000 lines read
+~ ~ ~** Part 1 **~ ~ ~
+Solution to Part 1 - Sample - is 7  
+         Time elapsed : 9
+Solution to Part 1 - Sample - is 1266  
+         Time elapsed : 2156
+~ ~ ~** Part 2 **~ ~ ~
+Solution to Part 2 - Sample - is 5  
+         Time elapsed : 8
+Solution to Part 2 - Sample - is 1217  
+         Time elapsed : 2164
 ```
 #### In VSCode
