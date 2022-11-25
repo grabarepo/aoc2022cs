@@ -19,7 +19,6 @@ namespace Aoc2022
 			if (File.Exists(_filename))
 			{
 				_rawdata = File.ReadAllText(_filename).Split(seperator).ToList();	
-				_rawdata.Remove(""); //remove empty strings
 				Console.WriteLine($"{_rawdata.Count} lines read");	
 			}
 			else

@@ -16,6 +16,7 @@ namespace Aoc2022
 		public InputDataDay00(InputDataType dataType, string seperator = "\n", string id = "") :
 			base(dataType, seperator, id)
 		{
+			_rawdata.Remove(""); //remove empty strings
 			// Cast to required type
 			_data = new Int32[_rawdata.Count];
 			for (int idx = 0; idx < _rawdata.Count; idx++)
