@@ -1,5 +1,5 @@
 // Advent of Code 2022, Day25
-// https://adventofcode.com/2022/day/1
+// https://adventofcode.com/2022/day/25
 // @author: 
 
 using System.IO;
