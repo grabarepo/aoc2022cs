@@ -17,14 +17,14 @@ class Program
 			(int result, Int64 timeElapsed) solution = Solve(sampleData, AocPart.Part1);
 			Console.WriteLine($"Solution to Part 1 - Sample - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
 			solution = Solve(actualData, AocPart.Part1);
-			Console.WriteLine($"Solution to Part 1 - Sample - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
+			Console.WriteLine($"Solution to Part 1 - Data - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
 
 			// Part 2
 			Console.WriteLine("\n~~~** Part 2 **~~~");
 			solution = Solve(sampleData, AocPart.Part2);
 			Console.WriteLine($"Solution to Part 2 - Sample - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
 			solution = Solve(actualData, AocPart.Part2);
-			Console.WriteLine($"Solution to Part 2 - Sample - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
+			Console.WriteLine($"Solution to Part 2 - Data - is {solution.result}  \n\t Time elapsed : {solution.timeElapsed}");
 		}
 		else
 		{
